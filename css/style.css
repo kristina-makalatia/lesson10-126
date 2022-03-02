@@ -1,0 +1,69 @@
+/* height responsive */
+.wraper {
+    background-color: aquamarine;
+    display: flex;
+    justify-content: space-between;
+    height: 250px;
+    flex-wrap: wrap;
+}
+.wraper p {
+    width: 250px;
+}
+
+@media (max-width: 500px) {
+    .wraper {
+        height: auto;
+    }
+}
+
+
+/* form styles */
+.input-form {
+    max-width: 700px;
+    width: 100%;
+    height: 60px;
+    /* background-color: lightblue; */
+    color:blueviolet;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 2px solid red;
+}
+input[type=password] {
+    /* background-color: chartreuse; */
+}
+.input-form:focus,
+.textarea-form:focus {
+    outline: none;
+}
+
+.form-wraper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+.btn-submit {
+    width: 250px;
+    height: 40px;
+    background-color: yellow;
+    margin-top: 50px;
+    border: none;
+    border-radius: 25px;
+}
+.input-form::placeholder,
+.textarea-form::placeholder {
+    color: red;
+    font-size: 14px;
+    font-weight: 200;
+    text-transform: lowercase;
+}
+.form-main-wraper {
+    margin-left: 80px;
+}
+.textarea-form {
+    max-width: 700px;
+    width: 100%;
+    height: 200px;
+    resize: none;
+}

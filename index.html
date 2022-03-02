@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="our website description">
+    <meta name="keywords" content="HTML, CSS, Flex, Form">
+    <meta name="author" content="Kristina">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <section>
+        <div class="wraper">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi quasi impedit autem aperiam dolorum. Est sunt dicta aperiam quasi harum facere eligendi iure reprehenderit odio veniam id porro, sint vitae.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium eos, quidem tempore est dignissimos similique error quod nobis vitae, unde vero maiores ratione totam facilis repellat. Aliquid qui corporis consequuntur!</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum exercitationem quia voluptate corrupti consequuntur modi minima facilis neque aliquam voluptatum provident similique blanditiis quisquam consequatur, dolorum expedita unde ipsa non.</p>
+        </div>
+    </section>
+
+    <section>
+       <div>
+           <form class="form-main-wraper" action="" method="POST">
+               <div class="form-wraper">
+                    <label for="firstname">Fisrt Name</label>
+                    <input class="input-form" type="text" id="firstname" name="fname" placeholder="Enter Your name.." required>
+               </div>
+              
+               <div class="form-wraper">
+                    <label for="mypassword">Password</label>
+                    <input class="input-form" type="password" id="mypassword" name="passw" placeholder="Enter Your Password" required>
+               </div>
+               
+               <div class="form-wraper">
+                    <label for="review"> Your Review</label>
+                    <textarea name="message" id="review" class="textarea-form" placeholder="Enter Your Review..."></textarea>
+               </div>
+
+               <div class="radio">
+                   <div>
+                        <input type="radio" id="gender" name="genderuser">
+                        <label for="gender"> Male</label> 
+                   </div>
+                   
+                   <div>
+                        <input type="radio" id="genderfemale" name="genderuser">
+                        <label for="genderfemale"> Female</label>
+                   </div>
+                   
+               </div>
+
+               <div class="checkbox">
+                   <input type="checkbox" name="musichobby" id="music">
+                   <label for="music">Music</label>
+
+                   <input type="checkbox" name="dancehobby " id="dance">
+                   <label for="dance">Dance</label>
+               </div>
+
+               <button class="btn-submit" type="submit"> Send</button>
+           </form>
+       </div>
+    </section>
+</body>
+</html>
